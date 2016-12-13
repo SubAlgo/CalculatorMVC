@@ -24,6 +24,7 @@ public class CalculatorView extends JFrame {
 		calcPanel.add(calcSolution);
 		
 		this.add(calcPanel);
+		this.setLocationRelativeTo(null);
 	}
 	
 	public int getFristNumber(){
@@ -50,6 +51,8 @@ public class CalculatorView extends JFrame {
 	void displayErrorMessage(String ErrorMessage){
 		JOptionPane.showMessageDialog(this, ErrorMessage);
 	}
+	
+	
 	
 	
 
